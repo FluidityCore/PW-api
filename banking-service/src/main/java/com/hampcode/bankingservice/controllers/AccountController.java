@@ -33,7 +33,7 @@ public class AccountController {
 
     @PostMapping
     public ResponseEntity<AccountResponseDTO> createAccount(@Validated @RequestBody
-                                                                AccountRequestDTO accountDTO) {
+                                                            AccountRequestDTO accountDTO) {
         AccountResponseDTO createdAccount = accountService.createAccount(accountDTO);
         return new ResponseEntity<>(createdAccount, HttpStatus.CREATED);
     }

@@ -1,7 +1,7 @@
 package com.hampcode.bankingservice.config;
 
-import com.hampcode.bankingservice.exceptions.BadRequestException;
 import com.hampcode.bankingservice.exceptions.ResourceNotFoundException;
+import com.hampcode.bankingservice.exceptions.BadRequestException;
 import lombok.AllArgsConstructor;
 import org.springframework.context.MessageSource;
 import org.springframework.http.HttpStatus;
